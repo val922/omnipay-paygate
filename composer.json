@@ -1,0 +1,21 @@
+{
+    "name": "olx-ssafrica/omnipay-paygate",
+    "version": "2.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4" : {
+            "Omnipay\\PayGate\\" : "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
