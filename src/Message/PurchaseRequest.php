@@ -229,6 +229,6 @@ class PurchaseRequest extends AbstractRequest
         /**
         * Consider the transaction API callback
         */
-        return 'https://secure.3gdirectpay.com/API/v6/;
+        return 'https://secure.paygate.co.za/payweb3/initiate.trans';
     }
 }
